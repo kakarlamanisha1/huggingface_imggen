@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # 🔗 Replace with your Hugging Face Space URL
-HF_SPACE_URL = "https://<username>-<space>.hf.space/run/predict"
+HF_SPACE_URL = "https://huggingface.co/spaces/manisha2845/my-text2image-diffuser"
 
 @app.route("/")
 def home():
